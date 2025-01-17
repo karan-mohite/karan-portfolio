@@ -26,7 +26,7 @@ const projects = [
     image: '/placeholder.svg?height=200&width=300',
     github: 'https://github.com/karan-mohite/E-Learning-website-main',
     demo: 'https://facial-recognition-demo.com',
-    technologies: ['Python', 'OpenCV', 'dlib', 'Flask'],
+    technologies: ['Node.js', 'Express.js', 'MongoDB', 'HTML/CSS'],
   },
 ]
 
