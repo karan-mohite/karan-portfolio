@@ -30,22 +30,23 @@ export default function Hero() {
                 <div className="flex justify-center lg:justify-start space-x-2">
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://github.com/karan-mohite" target="_blank" rel="noopener noreferrer">
-                      <Github className=" h-4 w-4" /> GitHub
+                      <Github className="mr-2 h-4 w-4" /> GitHub
                     </a>
                   </Button>
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://www.linkedin.com/in/karan-mohite" target="_blank" rel="noopener noreferrer">
-                      <Linkedin className=" h-4 w-4" /> LinkedIn
+                      <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                     </a>
                   </Button>
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mohitekaran18@gmail.com" target="_blank" rel="noopener noreferrer">
-                      <Mail className=" h-4 w-4" /> Email
+                      <Mail className="mr-2 h-4 w-4" /> Email
                     </a>
                   </Button>
+                  <br></br>
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://drive.google.com/file/d/1Uml-uTFqqGhcNk85z7qVzAH0kEQ7kyT0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Mail className=" h-4 w-4" /> Resume
+                      <Mail className="mr-2 h-4 w-4" /> Resume
                     </a>
                   </Button>
                 </div>
