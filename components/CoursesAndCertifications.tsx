@@ -7,13 +7,6 @@ import { InternalModifier } from 'react-day-picker';
 
 const coursesAndCertifications = [
 	{
-		title: 'C++ Programming Language',
-		provider: 'VJTech Academy',
-		date: 'December 2023',
-		type: 'Course',
-		link: ''
-	},
-	{
 		title: 'Java Programming Language',
 		provider: 'VJTech Academy',
 		date: 'March 2023',
@@ -25,14 +18,22 @@ const coursesAndCertifications = [
 		provider: 'VJTech Academy',
 		date: 'June 2024',
 		type: 'Course',
-		link: ''
+		link: 'https://drive.google.com/file/d/1bnq6yTazeId2eAPVwrerUIzQI8S3sTIB/view?usp=sharing'
 	},
 	{
-		title: 'DataBase Management System',
-		provider: 'VJTech Academy',
+		title: 'JavaScript Fundamentals',
+		provider: 'Great Stack',
 		date: 'january 2025',
 		type: 'Course',
-		link: ''
+		link: 'https://drive.google.com/file/d/1SRcrXG-R_VRQ_0ClFMq1QYZvmNzSaTdo/view?usp=sharing'
+	},
+	{
+		title: 'Anjular Basics',
+
+		provider: 'Simpli Learn',
+		date: 'january 2025',
+		type: 'Course',
+		link: 'https://drive.google.com/file/d/1hqXo9Eyyj8k_yBKpR3M-uLugRT9mHakf/view?usp=sharing'
 	}
 ];
 
@@ -61,7 +62,7 @@ export default function CoursesAndCertifications() {
 									className="bg-white dark:bg-gray-800 border-t-4 border-red-500 dark:border-red-400 transition-colors duration-300"
 								>
 									<CardHeader>
-										<CardTitle className="flex items-center text-lg font-semibold text-gray-800 dark:text-white">
+										<CardTitle className="flex items-center text-lg font-semibold text-gray-800 dark:text-white h-12">
 											{item.type === 'Course' ? (
 												<BookOpen className="mr-2 h-5 w-5 text-red-600 dark:text-red-400" />
 											) : (

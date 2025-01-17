@@ -43,6 +43,11 @@ export default function Hero() {
                       <Mail className=" h-4 w-4" /> Email
                     </a>
                   </Button>
+                  <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
+                    <a href="https://drive.google.com/file/d/1Uml-uTFqqGhcNk85z7qVzAH0kEQ7kyT0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      <Mail className=" h-4 w-4" /> Resume
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>

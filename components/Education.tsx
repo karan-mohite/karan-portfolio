@@ -14,7 +14,7 @@ const educationData = [
 		degree: 'Diploma in Computer Engineering',
 		school: 'Shivnagar Vidya Prasak Mandal (SVPM)',
 		location: 'Malegaon, Maharashtra',
-		year: '2021 - 2023',
+		year: '2020 - 2023',
 		email: 'info@svpm.edu.in'
 	}
 ];
