@@ -23,7 +23,8 @@ const projects = [
   {
     title: 'E-learning Platform',
     description: 'Teacher add their subject and post their subject related videos, questions.Students login and watch videos who was uploaded by teacher and solve coding problems...',
-    image: '/placeholder.svg?height=200&width=300',
+
+    image: "https://i.ibb.co/3yqryBL/Screenshot-77.png",
     github: 'https://github.com/karan-mohite/E-Learning-website-main',
     demo: 'https://facial-recognition-demo.com',
     technologies: ['Node.js', 'Express.js', 'MongoDB', 'HTML/CSS'],
@@ -46,8 +47,8 @@ export default function Projects() {
                     src={project.image}
                     alt={project.title}
                     width={300}
-                    height={200}
-                    className="w-full h-48 object-cover"
+                    height={400}
+                    className="w-full h-56 object-cover"
                   />
                   <CardHeader>
                     <CardTitle className="text-lg font-semibold text-gray-800 dark:text-white">{project.title}</CardTitle>
