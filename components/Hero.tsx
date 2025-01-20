@@ -27,7 +27,7 @@ export default function Hero() {
                 Passionate about creating elegant solutions to complex problem. 
                 Always eager to learn and apply new technologies to create innovative solutions.
                 </p>
-                <div className="flex justify-center lg:justify-start space-x-2">
+                <div className="flex justify-center flex-wrap gap-2 items-center lg:justify-start space-x-2">
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://github.com/karan-mohite" target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4" /> GitHub

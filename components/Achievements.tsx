@@ -28,7 +28,7 @@ export default function Achievements() {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-gray-700 dark:text-gray-300">{achievement.description}</p>
+                    <p className="text-gray-700 text-balance dark:text-gray-300">{achievement.description}</p>
                   </CardContent>
                 </Card>
               ))}
