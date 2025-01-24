@@ -15,9 +15,9 @@ const projects = [
   {
     title: 'Chat App with Sentiment Analysis',
     description: 'A realtime chat application that allows users to signup, signin, search for users and chat with anyone with sentiment analysis that...',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/chatappss.png?height=200&width=300',
     github: 'https://github.com/karan-mohite/chatapp_sentiment_analysis',
-    demo: 'https://ecommerce-app-demo.com',
+    demo: 'https://chat-app-sentiment.netlify.app/',
     technologies: ['React', 'Node.js', 'Express.js', 'Firebase', 'Sentiment.js'],
   },
   {
