@@ -24,7 +24,7 @@ export default function Hero() {
                 <h1 className="text-4xl font-bold mb-4 text-blue-600 dark:text-blue-400">Karan Mohite</h1>
                 <p className="text-xl text-gray-700 dark:text-gray-300 mb-6">Computer Engineering Student</p>
                 <p className="text-gray-600 dark:text-gray-400 mb-8">
-                👨‍💻 I am Karan Mohite, a passionate Computer Engineering student at PCET's Nutan Maharashtra Institute of Engineering and Technology, Pune. As a proficient full-stack Java developer, I excel in designing and delivering impactful web solutions. 🚀 My unwavering commitment to continuous learning and my innovative problem-solving abilities empower me to navigate and succeed in the ever-evolving tech landscape. 🌟
+                👨‍💻 I am passionate Computer Engineering student at PCET's Nutan Maharashtra Institute of Engineering and Technology, Pune. As a proficient full-stack Java developer, I excel in designing and delivering impactful web solutions. 🚀 My unwavering commitment to continuous learning and my innovative problem-solving abilities empower me to navigate and succeed in the ever-evolving tech landscape. 🌟
                 </p>
                 <div className="flex justify-center flex-wrap gap-2 items-center lg:justify-start space-x-2">
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
