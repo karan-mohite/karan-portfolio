@@ -7,9 +7,9 @@ const projects = [
   {
     title: 'Covid-19 Vaccination Management System',
     description: 'A vaccine management system that allows users to signup, signin, search for vaccines, book appointments, view appointments,...',
-    image: '/placeholder.svg?height=200&width=300',
+    image: '/vacciness.png?height=200&width=300',
     github: 'https://github.com/karan-mohite/vaccine-management-system-using-java',
-    demo: 'https://smart-home-iot-demo.com',
+    demo: '#',
     technologies: ['Java', 'Swing', 'MySQL', 'JDBC'],
   },
   {
