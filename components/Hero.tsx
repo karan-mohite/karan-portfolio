@@ -13,7 +13,7 @@ export default function Hero() {
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <div className="lg:w-1/3">
                 <Image
-                  src="/placeholder-user.jpeg?height=400&width=400"
+                  src="https://i.ibb.co/TM0g3CDk/Whats-App-Image-2025-02-07-at-21-27-32-a1a26003.jpg"
                   alt="Karan Mohite"
                   width={400}
                   height={400}
@@ -45,7 +45,7 @@ export default function Hero() {
                   <br></br>
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://drive.google.com/file/d/1Uml-uTFqqGhcNk85z7qVzAH0kEQ7kyT0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                      <Mail className="mr-2 h-4 w-4" /> Resume
+                      <Mail className="mr-2 h-4 w-4" />Resume
                     </a>
                   </Button>
                 </div>
