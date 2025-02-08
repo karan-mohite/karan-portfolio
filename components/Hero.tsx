@@ -32,12 +32,12 @@ export default function Hero() {
                       <Github className="mr-2 h-4 w-4" /> GitHub
                     </a>
                   </Button>
+
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                     <a href="https://www.linkedin.com/in/karan-mohite" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                     </a>
                   </Button>
-          
                   <br></br>
 
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
@@ -57,6 +57,28 @@ export default function Hero() {
                     </a>
                   </Button>
                   <br></br>
+
+                  <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
+                <a 
+                  href="https://drive.google.com/file/d/1Uml-uTFqqGhcNk85z7qVzAH0kEQ7kyT0/view?usp=sharing" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                >
+                  <svg 
+                    viewBox="0 0 24 24" 
+                    className="mr-2 h-4 w-4" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    strokeLinecap="round" 
+                    strokeLinejoin="round"
+                  >
+                    <path d="M12 5v14M19 12l-7 7-7-7" />
+                  </svg>
+                  Resume
+                </a>
+              </Button>
+              <br />
 
                 </div>
               </div>
