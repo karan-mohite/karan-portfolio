@@ -13,6 +13,7 @@ const coursesAndCertifications = [
 		type: 'Certification',
 		link: 'https://drive.google.com/file/d/1oFf-n-hKOHmRJxfV6sRD3UVAWp-QV530/view?usp=sharing'
 	},
+
 	{
 		title: 'AdvanceJava Programming Language ',
 		provider: 'VJTech Academy',
@@ -20,6 +21,7 @@ const coursesAndCertifications = [
 		type: 'Course',
 		link: 'https://drive.google.com/file/d/1bnq6yTazeId2eAPVwrerUIzQI8S3sTIB/view?usp=sharing'
 	},
+	
 	{
 		title: 'JavaScript Fundamentals',
 		provider: 'Great Stack',
