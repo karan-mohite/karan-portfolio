@@ -25,7 +25,7 @@ const projects = [
     description: 'Teacher add their subject and post their subject related videos, questions.Students login and watch videos who was uploaded by teacher and solve coding problems...',
     image: "https://i.ibb.co/3yqryBL/Screenshot-77.png",
     github: 'https://github.com/karan-mohite/E-Learning-website-main',
-    demo: 'https://facial-recognition-demo.com',
+    demo: '#',
     technologies: ['Node.js', 'Express.js', 'MongoDB', 'HTML/CSS'],
   },
   {
@@ -33,7 +33,7 @@ const projects = [
     description: 'A desktop application to manage hotel operations like booking, check-in, check-out, and billing using Java and MySQL.',
     image: "https://uploadnow.io/f/PH8F2V1",
     github: 'https://github.com/karan-mohite/Hotel-Management-Website-Using-Java',
-    demo: 'https://facial-recognition-demo.com',
+    demo: '#',
     technologies: ['Java (Swing)', 'MySQL', 'GUI', 'Object-Oriented Programming'],
   },  
 ]
