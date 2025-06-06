@@ -48,15 +48,16 @@ export default function Hero() {
                     Email
                   </a>
                 </Button>
-
                 <br></br>
 
                   <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
                 <a 
-                  href="https://drive.google.com/file/d/1Uml-uTFqqGhcNk85z7qVzAH0kEQ7kyT0/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/1kUAu4kfU3ev07UnXz8wONaS09jYXStzl/view?usp=sharing" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
+
+    
                   <svg 
                     viewBox="0 0 24 24" 
                     className="mr-2 h-4 w-4" 
@@ -72,7 +73,16 @@ export default function Hero() {
                 </a>
               </Button>
               <br />
+              <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
+              <a href="https://www.hackerrank.com/profile/mohitekaran18" target="_blank" rel="noopener noreferrer">
+                <svg className="mr-2 h-4 w-4" viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M477.5 128.3L277.4 6.1c-22.7-13.1-50.9-13.1-73.5 0L34.5 128.3c-22.7 13.1-36.8 37.4-36.8 63.6v128.3c0 26.2 14.1 50.5 36.8 63.6l169.4 122.2c22.7 13.1 50.9 13.1 73.5 0l200.1-122.2c22.7-13.1 36.8-37.4 36.8-63.6V191.9c0-26.2-14.1-50.5-36.8-63.6zM321.2 348.2h-51.3v-75.5h-27.7v75.5h-51.3V163.8h51.3v73.5h27.7v-73.5h51.3v184.4z"/>
+                </svg>
+                HackerRank
+              </a>
+            </Button>
 
+                <br></br>
                 </div>
               </div>
             </div>

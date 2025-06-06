@@ -1,11 +1,14 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Code, Database, Server, Globe, Terminal, Cpu } from 'lucide-react'
-
+import { BookOpen } from 'lucide-react';
 const skills = [
   { name: 'Programming Languages', icon: Code, items: ['C','C++', 'Java', 'Advance Java','Python'] },
   { name: 'Web Development', icon: Globe, items: ['HTML/CSS', 'React','JavaScript', 'Node.js', 'Express'] },
   { name: 'Databases', icon: Database, items: ['MySQL', 'MongoDB', 'PostgreSQL'] },
    { name: 'Version Control', icon: Terminal, items: ['Git', 'GitHub'] },
+   { name: 'Core Subjects', icon: BookOpen, items: ['Database Management System ', 'Operating System','Computer Networking'] },
+   { name: 'Areas of Interest', icon: BookOpen, items: ['Web Development', 'Java Development'] },
+
 ]
 
 export default function Skills() {
