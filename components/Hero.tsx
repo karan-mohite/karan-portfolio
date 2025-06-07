@@ -18,17 +18,15 @@ export default function Hero() {
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <div className="lg:w-1/3">
                 <div className="relative group">
-                  <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-full blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
                   <Image
                     src="https://i.ibb.co/TM0g3CDk/Whats-App-Image-2025-02-07-at-21-27-32-a1a26003.jpg"
                     alt="Karan Mohite"
                     width={400}
                     height={400}
-                    className="relative rounded-full mx-auto border-4 border-gradient-to-r from-purple-500 via-pink-500 to-blue-500 shadow-2xl group-hover:scale-105 transition-transform duration-500"
-                    style={{
-                      borderImage: "linear-gradient(45deg, #8b5cf6, #ec4899, #3b82f6) 1",
-                    }}
+                    className="rounded-full mx-auto border-4 border-white dark:border-gray-700 shadow-lg transition-all duration-500 group-hover:shadow-2xl group-hover:scale-105"
                   />
+                  {/* Hover-only glow effect */}
+                  <div className="absolute -inset-4 bg-gradient-to-r from-purple-500/30 via-pink-500/30 to-blue-500/30 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 </div>
               </div>
 
