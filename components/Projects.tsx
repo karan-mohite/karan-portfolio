@@ -31,7 +31,7 @@ const projects = [
   {
     title: 'Hotel Management System',
     description: 'A desktop application to manage hotel operations like booking, check-in, check-out, and billing using Java and MySQL.',
-    image: "https://uploadnow.io/f/PH8F2V1",
+    image: "hotel.png",
     github: 'https://github.com/karan-mohite/Hotel-Management-Website-Using-Java',
     demo: '#',
     technologies: ['Java (Swing)', 'MySQL', 'GUI', 'Object-Oriented Programming'],
