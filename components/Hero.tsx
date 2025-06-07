@@ -1,88 +1,112 @@
-import Image from 'next/image'
-import { Button } from '@/components/ui/button'
-import { Github, Linkedin, Mail } from 'lucide-react'
-import { Card, CardContent } from '@/components/ui/card'
-import Link from 'next/link'
+import Image from "next/image"
+import { Button } from "@/components/ui/button"
+import { Github, Linkedin, Mail, Download, Code } from "lucide-react"
+import { Card, CardContent } from "@/components/ui/card"
 
 export default function Hero() {
   return (
-    <section className="py-20 bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
-      <div className="container mx-auto px-4">
-        <Card className="bg-white dark:bg-gray-800 border-none transition-colors duration-300">
+    <section className="py-20 bg-gradient-to-br from-indigo-50 via-purple-50/80 to-pink-50/80 dark:from-indigo-950 dark:via-purple-950/80 dark:to-pink-950/80 transition-colors duration-300 relative overflow-hidden">
+      {/* Background Effects */}
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-500/5 via-pink-500/5 to-blue-500/5"></div>
+      <div className="absolute top-20 left-20 w-72 h-72 bg-purple-400/10 rounded-full blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-20 right-20 w-64 h-64 bg-pink-400/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+
+      <div className="container mx-auto px-4 relative z-10">
+        <Card className="bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm border-none transition-all duration-500 shadow-2xl hover:shadow-3xl ring-2 ring-purple-500/20 hover:ring-purple-500/30">
+          <div className="h-2 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500"></div>
           <CardContent className="p-8">
             <div className="flex flex-col lg:flex-row items-center gap-8">
               <div className="lg:w-1/3">
-                <Image
-                  src="https://i.ibb.co/TM0g3CDk/Whats-App-Image-2025-02-07-at-21-27-32-a1a26003.jpg"
-                  alt="Karan Mohite"
-                  width={400}
-                  height={400}
-                  className="rounded-full mx-auto border-4 border-blue-500 dark:border-blue-400"
-                />
+                <div className="relative group">
+                  <div className="absolute -inset-4 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 rounded-full blur-lg opacity-30 group-hover:opacity-50 transition-opacity duration-500"></div>
+                  <Image
+                    src="https://i.ibb.co/TM0g3CDk/Whats-App-Image-2025-02-07-at-21-27-32-a1a26003.jpg"
+                    alt="Karan Mohite"
+                    width={400}
+                    height={400}
+                    className="relative rounded-full mx-auto border-4 border-gradient-to-r from-purple-500 via-pink-500 to-blue-500 shadow-2xl group-hover:scale-105 transition-transform duration-500"
+                    style={{
+                      borderImage: "linear-gradient(45deg, #8b5cf6, #ec4899, #3b82f6) 1",
+                    }}
+                  />
+                </div>
               </div>
+
               <div className="lg:w-2/3 text-center lg:text-left">
-                <h1 className="text-4xl font-bold mb-4 text-blue-600 dark:text-blue-400">Karan Mohite</h1>
-                <p className="text-xl text-gray-700 dark:text-gray-300 mb-6">Computer Engineering Student</p>
-                <p className="text-gray-600 dark:text-gray-400 mb-8">
-                  I'm a Computer Engineering student at PCET's Nutan Maharashtra Institute of Engineering and Technology, Pune, with a passion for building innovative web solutions. As a full-stack Java developer, I combine technical expertise with creative problem-solving to create impactful digital experiences.
+                <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 bg-clip-text text-transparent">
+                  Karan Mohite
+                </h1>
+                <p className="text-2xl font-semibold text-gray-700 dark:text-gray-300 mb-6 bg-gradient-to-r from-purple-500/80 via-pink-500/80 to-blue-500/80 bg-clip-text text-transparent">
+                  Computer Engineering Student
                 </p>
-                <div className="flex justify-center flex-wrap gap-2 items-center lg:justify-start space-x-2">
-                  <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
+                <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
+                  I'm a Computer Engineering student at PCET's Nutan Maharashtra Institute of Engineering and
+                  Technology, Pune, with a passion for building innovative web solutions. As a full-stack Java
+                  developer, I combine technical expertise with creative problem-solving to create impactful digital
+                  experiences.
+                </p>
+
+                <div className="flex justify-center flex-wrap gap-4 items-center lg:justify-start">
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-purple-600 dark:text-purple-400 border-2 border-purple-500/50 hover:bg-purple-500 hover:text-white hover:border-purple-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25"
+                  >
                     <a href="https://github.com/karan-mohite" target="_blank" rel="noopener noreferrer">
                       <Github className="mr-2 h-4 w-4" /> GitHub
                     </a>
                   </Button>
 
-                  <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-blue-600 dark:text-blue-400 border-2 border-blue-500/50 hover:bg-blue-500 hover:text-white hover:border-blue-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25"
+                  >
                     <a href="https://www.linkedin.com/in/karan-mohite" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
                     </a>
                   </Button>
-                  <br></br>
 
-                  <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
-                  <a href="mailto:mohitekaran18@gmail.com" target="_blank" rel="noopener noreferrer">
-                    <svg viewBox="0 0 24 24" className="mr-2 h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
-                    </svg>
-                    Email
-                  </a>
-                </Button>
-                <br></br>
-
-                  <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
-                <a 
-                  href="https://drive.google.com/file/d/1kUAu4kfU3ev07UnXz8wONaS09jYXStzl/view?usp=sharing" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-
-    
-                  <svg 
-                    viewBox="0 0 24 24" 
-                    className="mr-2 h-4 w-4" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    strokeWidth="2" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round"
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-pink-600 dark:text-pink-400 border-2 border-pink-500/50 hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/25"
                   >
-                    <path d="M12 5v14M19 12l-7 7-7-7" />
-                  </svg>
-                  Resume
-                </a>
-              </Button>
-              <br />
-              <Button asChild variant="outline" className="bg-transparent text-blue-600 dark:text-blue-400 border-blue-600 dark:border-blue-400 hover:bg-blue-600 dark:hover:bg-blue-400 hover:text-white">
-              <a href="https://www.hackerrank.com/profile/mohitekaran18" target="_blank" rel="noopener noreferrer">
-                <svg className="mr-2 h-4 w-4" viewBox="0 0 512 512" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M477.5 128.3L277.4 6.1c-22.7-13.1-50.9-13.1-73.5 0L34.5 128.3c-22.7 13.1-36.8 37.4-36.8 63.6v128.3c0 26.2 14.1 50.5 36.8 63.6l169.4 122.2c22.7 13.1 50.9 13.1 73.5 0l200.1-122.2c22.7-13.1 36.8-37.4 36.8-63.6V191.9c0-26.2-14.1-50.5-36.8-63.6zM321.2 348.2h-51.3v-75.5h-27.7v75.5h-51.3V163.8h51.3v73.5h27.7v-73.5h51.3v184.4z"/>
-                </svg>
-                HackerRank
-              </a>
-            </Button>
+                    <a href="mailto:mohitekaran18@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <Mail className="mr-2 h-4 w-4" />
+                      Email
+                    </a>
+                  </Button>
 
-                <br></br>
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-emerald-600 dark:text-emerald-400 border-2 border-emerald-500/50 hover:bg-emerald-500 hover:text-white hover:border-emerald-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/25"
+                  >
+                    <a
+                      href="https://drive.google.com/file/d/1kUAu4kfU3ev07UnXz8wONaS09jYXStzl/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Download className="mr-2 h-4 w-4" />
+                      Resume
+                    </a>
+                  </Button>
+
+                  <Button
+                    asChild
+                    variant="outline"
+                    className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-orange-600 dark:text-orange-400 border-2 border-orange-500/50 hover:bg-orange-500 hover:text-white hover:border-orange-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-orange-500/25"
+                  >
+                    <a
+                      href="https://www.hackerrank.com/profile/mohitekaran18"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Code className="mr-2 h-4 w-4" />
+                      HackerRank
+                    </a>
+                  </Button>
                 </div>
               </div>
             </div>
@@ -92,4 +116,3 @@ export default function Hero() {
     </section>
   )
 }
-
