@@ -55,7 +55,7 @@ export default function Footer() {
             </Link>
 
             <Link
-              href="mailto:mohitekaran18@gmail.com"
+              href="mailto:mohitekaran234@gmail.com"
               className="group relative p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 hover:bg-purple-500/30 hover:border-purple-400/50 transition-all duration-500 transform hover:scale-110 hover:-translate-y-2 hover:rotate-3"
             >
               <Mail className="h-7 w-7 text-gray-300 group-hover:text-purple-300 transition-colors duration-300" />

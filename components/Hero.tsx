@@ -70,7 +70,7 @@ export default function Hero() {
                     variant="outline"
                     className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-pink-600 dark:text-pink-400 border-2 border-pink-500/50 hover:bg-pink-500 hover:text-white hover:border-pink-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-pink-500/25"
                   >
-                    <a href="mailto:mohitekaran18@gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:mohitekaran234@gmail.com" target="_blank" rel="noopener noreferrer">
                       <Mail className="mr-2 h-4 w-4" />
                       Email
                     </a>
@@ -82,7 +82,7 @@ export default function Hero() {
                     className="bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm text-emerald-600 dark:text-emerald-400 border-2 border-emerald-500/50 hover:bg-emerald-500 hover:text-white hover:border-emerald-500 transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-emerald-500/25"
                   >
                     <a
-                      href="https://drive.google.com/file/d/1kUAu4kfU3ev07UnXz8wONaS09jYXStzl/view?usp=sharing"
+                      href="https://drive.google.com/file/d/1AttWHsPH2JsdkwnVT0AN5IfGdkZsIzvk/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
