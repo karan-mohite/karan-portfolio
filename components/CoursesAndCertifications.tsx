@@ -45,6 +45,17 @@ const coursesAndCertifications = [
     level: "Expert",
     featured: true,
   },
+
+    {
+    title: "Spring Boot Framework",
+    provider: "Smart Programming",
+    date: "May 2025",
+    type: "Course",
+    link: "https://drive.google.com/file/d/1vncdhnDwaqvzZ3iEbT_t4NZipTCOvsnH/view?usp=sharing",
+    category: "programming",
+    level: "Advanced",
+    featured: true,
+  },
   {
     title: "Python",
     provider: "VJTech Academy",
