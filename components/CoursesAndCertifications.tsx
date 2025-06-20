@@ -207,6 +207,16 @@ const coursesAndCertifications = [
     level: "Expert",
     featured: true,
   },
+    {
+    title: "Cisco Networking Labs",
+    provider: "I-Medita",
+    date: "February 2025",
+    type: "Course",
+    link: "https://drive.google.com/file/d/17LmbockkvXmI0g0IIrH3sXTBupeoXT1n/view?usp=sharing",
+    category: "Network",
+    level: "Expert",
+    featured: true,
+  },
 ]
 
 const getCategoryColors = (category: string) => {
