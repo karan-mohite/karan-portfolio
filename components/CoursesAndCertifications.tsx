@@ -77,6 +77,17 @@ const coursesAndCertifications = [
     featured: false,
   },
   {
+    title: "DBMS",
+    provider: "VJTech Academy",
+    date: "july 2023",
+    type: "Certification",
+    link: "https://drive.google.com/file/d/16dZUMI4uUtWvfw2OAcCcnHuXQ0b3kbVf/view?usp=sharing",
+    category: "Query",
+    level: "Intermediate",
+    featured: false,
+  },
+
+  {
     title: "VB.NET",
     provider: "VJTech Academy",
     date: "September 2023",
